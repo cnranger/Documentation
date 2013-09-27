@@ -1,1 +1,1 @@
-
+One aspect of SynchronizationContext is that it provides a way to queue a unit of work to a context. Note that this unit of work is queued to a context rather than a specific thread. This distinction is important, because many implementations of SynchronizationContext aren’t based on a single, specific thread. SynchronizationContext does not include a mechanism to determine if synchronization is necessary, because this isn’t always possible.
